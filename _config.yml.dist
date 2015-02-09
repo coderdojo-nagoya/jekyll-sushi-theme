@@ -1,0 +1,26 @@
+# Jekyll configuration
+
+dojo:
+  # your dojo name like "CoderDojo Nagoya"
+  name: ''
+  # url for your dojo website like "http://coderdojo-nagoya.github.io"
+  url: ''
+# optional: name for your sushi website. if blank, your dojo name will be used.
+name: ''
+# optional: description for your sushi website
+description: 'Sushi'
+# optional: base url or path for your sushi website. leave it blank if your sushi website will be root.
+baseurl: ''
+
+# optional: your github repository url like "coderdojo-nagoya/Sushi.python"
+github: ''
+# optional: your google analytics code like "UA-XXXX-YY"
+gaaccount: ''
+
+# please do not edit unless you are professional :)
+permalink: /:title
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+exclude: ['README.md', 'LICENSE']
