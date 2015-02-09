@@ -1,0 +1,20 @@
+{% include header.html %}
+
+<div class="container">
+    <div class="card">
+        <div class="header">
+            <h1>{{page.title}}</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+      <span class="pull-left">&#x1f363; {{page.series}} No.{{page.number}}</span>
+      <span class="pull-right">[coderdojo logo] {{site.dojo.name}}</span>
+    </div>
+</div>
+
+{% include footer.html %}
